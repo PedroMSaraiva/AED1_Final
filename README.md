@@ -1,18 +1,42 @@
 # AED1_Final
-Esse repositorio foi criado para a atividade final de AED1 do Instituto de Informatica da UFG.
-Essa atividade e sobre a analise de tres algortimos de ordenação, sendo eles:
+Esse repositorio foi criado para a atividade final de AED1 do Instituto de Informatica da UFG. As aulas foram ministradas pelos professores Francisco e Temal Soares. Os alunos responsaveis pela resolução dessa atividade são: Carlos Henrique, Guilherme Frazão e Pedro Saraiva.
 
-1. ### ShellSort
-2. ### QuickSort
-3. ### MergeSort
+Essa atividade e sobre a analise de três algortimos de ordenação, sendo eles:
 
-Nós temos que implemeta-los e testa-los com os arquivos .csv presentes na pasta [arrays](arrays/)
+1. #### ShellSort
+2. #### QuickSort
+3. #### MergeSort
 
-## Enunciados
+Nós temos que implemeta-los e testa-los com os arquivos .csv presentes na pasta [arrays](arrays/).
+O arquivo com o enunciado original fornecido pelo professor é [PDF](TRAB_FINAL.pdf).
 
-1. Implemente o algoritmo de ordenação ShellSort. Teste com os 5 arrays, verifique o tempo de cada array e preencha a tabela abaixo. (feito por Guilherme Frazão)
-2. Implemente o algoritmo de ordenação QuickSort. Teste com os 5 arrays, verifique o tempo de cada array e preencha a tabela abaixo. (feito por Pedro Saraiva)
-3. Implemente o algoritmo de ordenação MergeSort. Teste com os 5 arrays, verifique o tempo de cada array e preencha a tabela abaixo. (feito por Carlos Henrique)
+# Enunciados
+
+1. Implemente o algoritmo de ordenação ShellSort. Teste com os 5 arrays, verifique o tempo de cada array e preencha a tabela abaixo. (feito por *Guilherme Frazão*)
+2. Implemente o algoritmo de ordenação QuickSort. Teste com os 5 arrays, verifique o tempo de cada array e preencha a tabela abaixo. (feito por *Pedro Saraiva*)
+3. Implemente o algoritmo de ordenação MergeSort. Teste com os 5 arrays, verifique o tempo de cada array e preencha a tabela abaixo. (feito por *Carlos Henrique*)
+
+## Tabela Auxiliar
+
+| Algoritmo | Qtd Registros | Tempo |
+|-----------|---------------|-------|
+| ShellSort | 500           |       |
+| ShellSort | 1000          |       |
+| ShellSort | 2000          |       |
+| ShellSort | 3000          |       |
+| ShellSort | 5000          |       |
+| QuickSort | 500           |       |
+| QuickSort | 1000          |       |
+| QuickSort | 2000          |       |
+| QuickSort | 3000          |       |
+| QuickSort | 5000          |       |
+| MergeSort | 500           |       |
+| MergeSort | 1000          |       |
+| MergeSort | 2000          |       |
+| MergeSort | 3000          |       |
+| MergeSort | 5000          |       |
+
+
 4. Construa um gráfico de linha para cada algoritmo onde o eixo X é o tempo e o eixo Y é a quantidade de registros do referido teste.
 5. Discorra sobre os pontos fortes e os pontos fracos de cada um dos três algoritmos implementados anteriormente. 
 Reposta:
@@ -52,26 +76,6 @@ Reposta:
 
 - **Uso de memória:** Requer memória adicional para a operação de merge, o que pode ser um problema para conjuntos de dados muito grandes.
 - **Eficiência em listas pequenas**: Pode ser menos eficiente do que outros algoritmos, como o Insertion Sort, para listas pequenas.
-
-## Tabela Auxiliar
-
-| Algoritmo | Qtd Registros | Tempo |
-|-----------|---------------|-------|
-| ShellSort | 500           |       |
-| ShellSort | 1000          |       |
-| ShellSort | 2000          |       |
-| ShellSort | 3000          |       |
-| ShellSort | 5000          |       |
-| QuickSort | 500           |       |
-| QuickSort | 1000          |       |
-| QuickSort | 2000          |       |
-| QuickSort | 3000          |       |
-| QuickSort | 5000          |       |
-| MergeSort | 500           |       |
-| MergeSort | 1000          |       |
-| MergeSort | 2000          |       |
-| MergeSort | 3000          |       |
-| MergeSort | 5000          |       |
 
 
 
