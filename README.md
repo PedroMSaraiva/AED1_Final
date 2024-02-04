@@ -7,7 +7,7 @@ Essa atividade e sobre a analise de três algortimos de ordenação, sendo eles:
 2. #### QuickSort
 3. #### MergeSort
 
-Nós temos que implemeta-los e testa-los com os arquivos .csv presentes na pasta [arrays](arrays/).
+Nós temos que implemeta-los e testa-los com os arquivos .txt presentes na pasta [arrays](arrays/).
 O arquivo com o enunciado original fornecido pelo professor é [PDF](TRAB_FINAL.pdf).
 
 # Enunciados
