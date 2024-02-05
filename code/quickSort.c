@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdbool.h>
+#include <errno.h>
 
 void swap(int* a, int* b) {
     int t = *a;
@@ -57,12 +58,13 @@ int main() {
             return 1;
         }
 
-        sprintf(filename, "arrays/random_numbers_%s.txt", len);
-
+        sprintf(filename, "/home/pedro/Documents/BIA/AED/AED1_Final/arrays/random_numbers_%s.txt", len);
+        // Altere o caminho absoluto
         FILE *inputFile = fopen(filename,"r");
+        printf("Arquivo a abrir: %s\n", filename);
         if (inputFile == NULL) {
-            fprintf(stderr, "Erro ao abrir o arquivo!\n");
-            exit(1);
+            perror("Erro ao abrir o arquivo"); // Substitua fprintf por perror
+            exit(EXIT_FAILURE);
         }
 
         int *array = malloc(50 * sizeof(int)); // Assumindo que você tem até 50 números em cada linha
@@ -71,7 +73,7 @@ int main() {
             exit(1);
         }
         double  sum = 0;
-        for (int i = 0; i < 50000; i++){ // testa 50000 vezes e faz a media
+        for (int i = 0; i < 5000; i++){ // testa 5000 vezes e faz a media
             clock_t start = clock();
             while (fscanf(inputFile, "%d", &array[n]) != EOF) {
                 n++;
@@ -86,8 +88,8 @@ int main() {
             sum += time_spent; 
             printf("%lf\n", time_spent);
             }
-        fclose(inputFile); // Movido para fora do laço
-        free(array); // Movido para fora do laço
+        fclose(inputFile); 
+        free(array); 
         printf("Tempo medio: %.10lf\n\n", (sum / 5000));
         }
 
