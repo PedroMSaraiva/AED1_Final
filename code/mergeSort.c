@@ -10,7 +10,8 @@ void merge(int arr[], int l, int m, int r) {
     int i, j, k;
     int n1 = m - l + 1;
     int n2 = r - m;
-
+    
+    // TODO: arruma isso pra rodar no pc do chico carlao!!!!
     // Crie arrays temporários
     int L[n1], R[n2];
 
@@ -78,12 +79,12 @@ int main() {
     // Aloca memória para o array
     array = (int*) malloc(size * sizeof(int));
     if (array == NULL) {
-        printf("Erro na alocação de memória.\n");
+        printf("Erro na alocacao de memoria.\n");
         exit(1);
     }
 
     // Abre o arquivo para leitura
-    file = fopen("arrays/random_numbers_0500.txt", "r");
+    file = fopen("../arrays/random_numbers_0500.txt", "r");
     if (file == NULL) {
         printf("Erro ao abrir o arquivo.\n");
         exit(1);
@@ -122,12 +123,12 @@ int main() {
     // Aloca memória para o array
     array = (int*) malloc(size * sizeof(int));
     if (array == NULL) {
-        printf("Erro na alocação de memória.\n");
+        printf("Erro na alocacao de memoria.\n");
         exit(1);
     }
 
     // Abre o arquivo para leitura
-    file = fopen("arrays/random_numbers_1000.txt", "r");
+    file = fopen("../arrays/random_numbers_1000.txt", "r");
     if (file == NULL) {
         printf("Erro ao abrir o arquivo.\n");
         exit(1);
@@ -164,12 +165,12 @@ int main() {
     array = (int*) malloc(size * sizeof(int));
 
     if (array == NULL) {
-        printf("Erro na alocação de memória.\n");
+        printf("Erro na alocacao de memoria.\n");
         exit(1);
     }
 
     // Abre o arquivo para leitura
-    file = fopen("arrays/random_numbers_2000.txt", "r");
+    file = fopen("../arrays/random_numbers_2000.txt", "r");
 
     if (file == NULL) {
         printf("Erro ao abrir o arquivo.\n");
@@ -207,12 +208,12 @@ int main() {
     array = (int*) malloc(size * sizeof(int));
 
     if (array == NULL) {
-        printf("Erro na alocação de memória.\n");
+        printf("Erro na alocacao de memoria.\n");
         exit(1);
     }
 
     // Abre o arquivo para leitura
-    file = fopen("arrays/random_numbers_3000.txt", "r");
+    file = fopen("../arrays/random_numbers_3000.txt", "r");
 
     if (file == NULL) {
         printf("Erro ao abrir o arquivo.\n");
@@ -250,12 +251,12 @@ int main() {
     array = (int*) malloc(size * sizeof(int));
 
     if (array == NULL) {
-        printf("Erro na alocação de memória.\n");
+        printf("Erro na alocacao de memoria.\n");
         exit(1);
     }
 
     // Abre o arquivo para leitura
-    file = fopen("arrays/random_numbers_5000.txt", "r");
+    file = fopen("../arrays/random_numbers_5000.txt", "r");
 
     if (file == NULL) {
         printf("Erro ao abrir o arquivo.\n");

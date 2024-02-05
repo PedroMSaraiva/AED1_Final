@@ -23,11 +23,11 @@ Os dados que estão na tabela são de valores medios de varias ordenações das 
 
 | Algoritmo | Qtd Registros | Tempo |
 |-----------|---------------|-------|
-| ShellSort | 500           |       |
-| ShellSort | 1000          |       |
-| ShellSort | 2000          |       |
-| ShellSort | 3000          |       |
-| ShellSort | 5000          |       |
+| ShellSort | 500           |0.00000612|
+| ShellSort | 1000          |0.00000704|
+| ShellSort | 2000          |0.00000624|
+| ShellSort | 3000          |0.00000616|
+| ShellSort | 5000          |0.00000656|
 | QuickSort | 500           |0.0000059696|
 | QuickSort | 1000          |0.0000070510|
 | QuickSort | 2000          |0.0000064948|
