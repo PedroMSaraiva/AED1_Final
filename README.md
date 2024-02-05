@@ -19,25 +19,8 @@ O arquivo com o enunciado original fornecido pelo professor é [PDF](TRAB_FINAL.
 Esses codigos podem ser acessados na pasta [code](code/)
 Os dados que estão na tabela são de valores medios de varias ordenações das listas, decidimos fazer para ter uma precisao estatitisca adequada. Nos deixamos os valores medio pois são mais "limpos" e da para colocar na tabela.
 
-## Tabela Auxiliar
+![Tabela Auxiliar](tabela.png)
 
-| Algoritmo | Qtd Registros | Tempo |
-|-----------|---------------|-------|
-| ShellSort | 500           |0.00000612|
-| ShellSort | 1000          |0.00000704|
-| ShellSort | 2000          |0.00000624|
-| ShellSort | 3000          |0.00000616|
-| ShellSort | 5000          |0.00000656|
-| QuickSort | 500           |0.0000059696|
-| QuickSort | 1000          |0.0000070510|
-| QuickSort | 2000          |0.0000064948|
-| QuickSort | 3000          |0.0000066958|
-| QuickSort | 5000          |0.0000068570|
-| MergeSort | 500           |0.000044|
-| MergeSort | 1000          |0.000096|
-| MergeSort | 2000          |0.000199|
-| MergeSort | 3000          |0.000313|
-| MergeSort | 5000          |0.000756|
 
 
 4. Construa um gráfico de linha para cada algoritmo onde o eixo X é o tempo e o eixo Y é a quantidade de registros do referido teste.
